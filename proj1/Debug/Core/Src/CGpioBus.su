@@ -1,0 +1,8 @@
+../Core/Src/CGpioBus.cpp:10:1:CGpioBus::CGpioBus()	16	static
+../Core/Src/CGpioBus.cpp:16:1:CGpioBus::CGpioBus(const CGpioBus&)	16	static
+../Core/Src/CGpioBus.cpp:20:11:CGpioBus& CGpioBus::operator=(const CGpioBus&)	16	static
+../Core/Src/CGpioBus.cpp:23:1:CGpioBus::~CGpioBus()	16	static
+../Core/Src/CGpioBus.cpp:27:11:CGpioBus& CGpioBus::addPin(GPIO_TypeDef*, uint16_t)	24	static
+../Core/Src/CGpioBus.cpp:30:11:CGpioBus& CGpioBus::write(uint16_t)	16	static
+../Core/Src/CGpioBus.cpp:33:11:CGpioBus& CGpioBus::operator=(uint16_t)	16	static
+../Core/Src/CGpioBus.cpp:36:10:uint16_t CGpioBus::read() const	16	static

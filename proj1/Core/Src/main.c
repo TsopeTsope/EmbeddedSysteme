@@ -90,6 +90,15 @@ int main(void)
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
 
+  extern void runPatternGenerator();
+  runPatternGenerator();
+
+  //  extern void runKeysToLeds();
+  //  runKeysToLeds();
+
+  //  extern void runLcdTest();
+  //  runLcdTest();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

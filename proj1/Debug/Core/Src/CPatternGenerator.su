@@ -1,0 +1,2 @@
+../Core/Src/CPatternGenerator.h:16:17:void runPatternGenerator()	16	static
+../Core/Src/CPatternGenerator.cpp:11:6:void CPatternGenerator::run()	32	static

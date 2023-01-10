@@ -1,4 +1,6 @@
 "./Core/Src/CGpioBus.o"
+"./Core/Src/CGpioPin.o"
+"./Core/Src/CPatternGenerator.o"
 "./Core/Src/gpio.o"
 "./Core/Src/main.o"
 "./Core/Src/stm32f4xx_hal_msp.o"

@@ -81,6 +81,11 @@ public:
 	CGpioBus& write(uint16_t value);
 
 	/**
+	 * Delete der Bus
+	 */
+	void deleteAll();
+
+	/**
 	 * Delegates to write(uint16_t value).
 	 *
 	 * @param value the value to use

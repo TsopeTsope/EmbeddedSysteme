@@ -1,0 +1,2 @@
+../Core/Src/CBmp280SpiTest.h:16:17:void runBmp280SpiTest()	16	static
+../Core/Src/CBmp280SpiTest.cpp:10:6:void CBmp280SpiTest::run()	16	static

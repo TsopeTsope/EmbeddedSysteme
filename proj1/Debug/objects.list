@@ -1,5 +1,8 @@
 "./Core/Src/CGpioBus.o"
 "./Core/Src/CGpioPin.o"
+"./Core/Src/CKeysToLeds.o"
+"./Core/Src/CLcd1602.o"
+"./Core/Src/CLcdTest.o"
 "./Core/Src/CPatternGenerator.o"
 "./Core/Src/gpio.o"
 "./Core/Src/main.o"

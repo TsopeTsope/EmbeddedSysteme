@@ -7,7 +7,7 @@
 
 #include "CBmp280LowLevelDriver.h"
 
-bool CBmp280LowLevelDriver::readRegisters(uint8_t startAddress, uint8_t data,
+bool CBmp280LowLevelDriver::readRegisters(uint8_t startAddress, uint8_t *data,
 		uint8_t bytes) {
 }
 

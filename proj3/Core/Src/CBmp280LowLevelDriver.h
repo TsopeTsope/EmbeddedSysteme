@@ -11,8 +11,8 @@
 
 class CBmp280LowLevelDriver {
 public:
-	bool readRegisters(uint8_t startAddress, uint8_t data, uint8_t bytes);
-	bool writeRegister(uint8_t address, uint8_t data);
+	virtual bool readRegisters(uint8_t startAddress, uint8_t *data, uint8_t bytes);
+	virtual bool writeRegister(uint8_t address, uint8_t data);
 };
 
 #endif /* SRC_CBMP280LOWLEVELDRIVER_H_ */

@@ -1,2 +1,2 @@
-../Core/Src/CBmp280LowLevelDriver.cpp:10:6:bool CBmp280LowLevelDriver::readRegisters(uint8_t, uint8_t, uint8_t)	16	static
-../Core/Src/CBmp280LowLevelDriver.cpp:14:6:bool CBmp280LowLevelDriver::writeRegister(uint8_t, uint8_t)	16	static
+../Core/Src/CBmp280LowLevelDriver.cpp:10:6:virtual bool CBmp280LowLevelDriver::readRegisters(uint8_t, uint8_t*, uint8_t)	24	static
+../Core/Src/CBmp280LowLevelDriver.cpp:14:6:virtual bool CBmp280LowLevelDriver::writeRegister(uint8_t, uint8_t)	16	static

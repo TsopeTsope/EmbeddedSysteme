@@ -9,6 +9,7 @@
 #define SRC_CBMP280I2CDRIVER_H_
 #include "i2c.h"
 #include "CBmp280LowLevelDriver.h"
+#include "stm32f4xx_hal.h"
 
 class CBmp280I2cDriver : public CBmp280LowLevelDriver {
 public:
@@ -19,8 +20,6 @@ public:
 private:
 	I2C_HandleTypeDef* m_hi2c;
 	uint8_t m_deviceAddress;
-
-
 };
 
 #endif /* SRC_CBMP280I2CDRIVER_H_ */

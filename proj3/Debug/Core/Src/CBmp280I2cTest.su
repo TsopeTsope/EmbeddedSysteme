@@ -1,3 +1,9 @@
 ../Core/Src/CBmp280I2cTest.h:16:17:void runBmp280I2cTest()	16	static
 c:\st\stm32cubeide_1.11.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
-../Core/Src/CBmp280I2cTest.cpp:14:6:void CBmp280I2cTest::run()	272	static
+../Core/Src/CGpioPin.h:22:8:constexpr CGpioPin::CConfiguration::CConfiguration()	16	static
+../Core/Src/CGpioPin.h:123:2:CGpioPin::CGpioPin(GPIO_TypeDef*, uint8_t)	24	static
+../Core/Src/CGpioPin.h:135:12:CGpioPin& CGpioPin::setState(bool)	16	static
+../Core/Src/CBmp280I2cTest.cpp:53:6:void CBmp280I2cTest::run()	384	static
+../Core/Src/CBmp280I2cTest.cpp:91:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../Core/Src/CBmp280I2cTest.cpp:91:1:cpp)	8	static
+../Core/Src/CBmp280I2cTest.cpp:91:1:cpp)	8	static

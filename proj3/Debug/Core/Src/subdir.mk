@@ -5,6 +5,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Core/Src/dma.c \
 ../Core/Src/gpio.c \
 ../Core/Src/i2c.c \
 ../Core/Src/main.c \
@@ -30,6 +31,7 @@ CPP_SRCS += \
 ../Core/Src/CLcdTest.cpp 
 
 C_DEPS += \
+./Core/Src/dma.d \
 ./Core/Src/gpio.d \
 ./Core/Src/i2c.d \
 ./Core/Src/main.d \
@@ -53,6 +55,7 @@ OBJS += \
 ./Core/Src/CGpioPin.o \
 ./Core/Src/CLcd1602.o \
 ./Core/Src/CLcdTest.o \
+./Core/Src/dma.o \
 ./Core/Src/gpio.o \
 ./Core/Src/i2c.o \
 ./Core/Src/main.o \
@@ -87,7 +90,7 @@ Core/Src/%.o Core/Src/%.su: ../Core/Src/%.c Core/Src/subdir.mk
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/CBmp280Device.d ./Core/Src/CBmp280Device.o ./Core/Src/CBmp280Device.su ./Core/Src/CBmp280I2cDriver.d ./Core/Src/CBmp280I2cDriver.o ./Core/Src/CBmp280I2cDriver.su ./Core/Src/CBmp280I2cTest.d ./Core/Src/CBmp280I2cTest.o ./Core/Src/CBmp280I2cTest.su ./Core/Src/CBmp280LowLevelDriver.d ./Core/Src/CBmp280LowLevelDriver.o ./Core/Src/CBmp280LowLevelDriver.su ./Core/Src/CBmp280SpiDriver.d ./Core/Src/CBmp280SpiDriver.o ./Core/Src/CBmp280SpiDriver.su ./Core/Src/CBmp280SpiTest.d ./Core/Src/CBmp280SpiTest.o ./Core/Src/CBmp280SpiTest.su ./Core/Src/CGpioBus.d ./Core/Src/CGpioBus.o ./Core/Src/CGpioBus.su ./Core/Src/CGpioPin.d ./Core/Src/CGpioPin.o ./Core/Src/CGpioPin.su ./Core/Src/CLcd1602.d ./Core/Src/CLcd1602.o ./Core/Src/CLcd1602.su ./Core/Src/CLcdTest.d ./Core/Src/CLcdTest.o ./Core/Src/CLcdTest.su ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/gpio.su ./Core/Src/i2c.d ./Core/Src/i2c.o ./Core/Src/i2c.su ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/spi.d ./Core/Src/spi.o ./Core/Src/spi.su ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su ./Core/Src/tim.d ./Core/Src/tim.o ./Core/Src/tim.su ./Core/Src/usart.d ./Core/Src/usart.o ./Core/Src/usart.su
+	-$(RM) ./Core/Src/CBmp280Device.d ./Core/Src/CBmp280Device.o ./Core/Src/CBmp280Device.su ./Core/Src/CBmp280I2cDriver.d ./Core/Src/CBmp280I2cDriver.o ./Core/Src/CBmp280I2cDriver.su ./Core/Src/CBmp280I2cTest.d ./Core/Src/CBmp280I2cTest.o ./Core/Src/CBmp280I2cTest.su ./Core/Src/CBmp280LowLevelDriver.d ./Core/Src/CBmp280LowLevelDriver.o ./Core/Src/CBmp280LowLevelDriver.su ./Core/Src/CBmp280SpiDriver.d ./Core/Src/CBmp280SpiDriver.o ./Core/Src/CBmp280SpiDriver.su ./Core/Src/CBmp280SpiTest.d ./Core/Src/CBmp280SpiTest.o ./Core/Src/CBmp280SpiTest.su ./Core/Src/CGpioBus.d ./Core/Src/CGpioBus.o ./Core/Src/CGpioBus.su ./Core/Src/CGpioPin.d ./Core/Src/CGpioPin.o ./Core/Src/CGpioPin.su ./Core/Src/CLcd1602.d ./Core/Src/CLcd1602.o ./Core/Src/CLcd1602.su ./Core/Src/CLcdTest.d ./Core/Src/CLcdTest.o ./Core/Src/CLcdTest.su ./Core/Src/dma.d ./Core/Src/dma.o ./Core/Src/dma.su ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/gpio.su ./Core/Src/i2c.d ./Core/Src/i2c.o ./Core/Src/i2c.su ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/spi.d ./Core/Src/spi.o ./Core/Src/spi.su ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su ./Core/Src/tim.d ./Core/Src/tim.o ./Core/Src/tim.su ./Core/Src/usart.d ./Core/Src/usart.o ./Core/Src/usart.su
 
 .PHONY: clean-Core-2f-Src
 

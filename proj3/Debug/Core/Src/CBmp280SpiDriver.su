@@ -1,5 +1,8 @@
-../Core/Src/CBmp280SpiDriver.cpp:10:1:CBmp280SpiDriver::CBmp280SpiDriver(SPI_HandleTypeDef*, CGpioPin*)	24	static
-../Core/Src/CBmp280SpiDriver.cpp:13:1:CBmp280SpiDriver::~CBmp280SpiDriver()	16	static
-../Core/Src/CBmp280SpiDriver.cpp:13:1:virtual CBmp280SpiDriver::~CBmp280SpiDriver()	16	static
-../Core/Src/CBmp280SpiDriver.cpp:17:6:bool CBmp280SpiDriver::readRegisters(uint8_t, uint8_t*, uint8_t)	24	static
-../Core/Src/CBmp280SpiDriver.cpp:21:6:bool CBmp280SpiDriver::writeRegister(uint8_t, uint8_t)	16	static
+../Core/Src/CGpioPin.h:135:12:CGpioPin& CGpioPin::setState(bool)	16	static
+../Core/Src/CGpioPin.h:148:12:CGpioPin& CGpioPin::operator=(bool)	16	static
+../Core/Src/CBmp280LowLevelDriver.h:12:7:constexpr CBmp280LowLevelDriver::CBmp280LowLevelDriver()	16	static
+../Core/Src/CBmp280SpiDriver.cpp:11:1:CBmp280SpiDriver::CBmp280SpiDriver(SPI_HandleTypeDef*, CGpioPin*)	24	static
+../Core/Src/CBmp280SpiDriver.cpp:16:1:CBmp280SpiDriver::~CBmp280SpiDriver()	16	static
+../Core/Src/CBmp280SpiDriver.cpp:16:1:virtual CBmp280SpiDriver::~CBmp280SpiDriver()	16	static
+../Core/Src/CBmp280SpiDriver.cpp:20:6:virtual bool CBmp280SpiDriver::readRegisters(uint8_t, uint8_t*, uint8_t)	24	static
+../Core/Src/CBmp280SpiDriver.cpp:36:6:virtual bool CBmp280SpiDriver::writeRegister(uint8_t, uint8_t)	16	static

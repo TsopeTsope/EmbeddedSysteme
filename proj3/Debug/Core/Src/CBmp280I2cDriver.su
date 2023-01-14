@@ -1,5 +1,6 @@
+../Core/Src/CBmp280LowLevelDriver.h:12:7:constexpr CBmp280LowLevelDriver::CBmp280LowLevelDriver()	16	static
 ../Core/Src/CBmp280I2cDriver.cpp:12:1:CBmp280I2cDriver::CBmp280I2cDriver(I2C_HandleTypeDef*, uint8_t)	24	static
-../Core/Src/CBmp280I2cDriver.cpp:16:1:CBmp280I2cDriver::~CBmp280I2cDriver()	16	static
-../Core/Src/CBmp280I2cDriver.cpp:16:1:virtual CBmp280I2cDriver::~CBmp280I2cDriver()	16	static
-../Core/Src/CBmp280I2cDriver.cpp:20:6:bool CBmp280I2cDriver::readRegisters(uint8_t, uint8_t*, uint8_t)	24	static
-../Core/Src/CBmp280I2cDriver.cpp:24:6:bool CBmp280I2cDriver::writeRegister(uint8_t, uint8_t)	16	static
+../Core/Src/CBmp280I2cDriver.cpp:18:1:CBmp280I2cDriver::~CBmp280I2cDriver()	16	static
+../Core/Src/CBmp280I2cDriver.cpp:18:1:virtual CBmp280I2cDriver::~CBmp280I2cDriver()	16	static
+../Core/Src/CBmp280I2cDriver.cpp:22:6:virtual bool CBmp280I2cDriver::readRegisters(uint8_t, uint8_t*, uint8_t)	32	static
+../Core/Src/CBmp280I2cDriver.cpp:35:6:virtual bool CBmp280I2cDriver::writeRegister(uint8_t, uint8_t)	24	static

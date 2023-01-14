@@ -10,6 +10,7 @@
 #include "spi.h"
 #include "CBmp280LowLevelDriver.h"
 #include "CGpioPin.h"
+#include "stm32f4xx_hal.h"
 
 class CBmp280SpiDriver : public CBmp280LowLevelDriver {
 public:

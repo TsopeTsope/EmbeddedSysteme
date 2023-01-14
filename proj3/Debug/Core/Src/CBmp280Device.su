@@ -1,5 +1,5 @@
-../Core/Src/CBmp280Device.cpp:10:1:CBmp280Device::CBmp280Device(CBmp280LowLevelDriver*)	16	static
-../Core/Src/CBmp280Device.cpp:13:7:float CBmp280Device::getPressure()	16	static
-../Core/Src/CBmp280Device.cpp:16:7:float CBmp280Device::getTemperature()	16	static
-../Core/Src/CBmp280Device.cpp:19:6:void CBmp280Device::getAll(float&, float&)	24	static
-../Core/Src/CBmp280Device.cpp:22:6:void CBmp280Device::setMode(CBmp280Device::OperatingMode, CBmp280Device::StandByTime)	16	static
+../Core/Src/CBmp280Device.cpp:14:1:CBmp280Device::CBmp280Device(CBmp280LowLevelDriver*)	16	static
+../Core/Src/CBmp280Device.cpp:18:7:float CBmp280Device::getPressure()	352	static
+../Core/Src/CBmp280Device.cpp:42:7:float CBmp280Device::getTemperature()	48	static
+../Core/Src/CBmp280Device.cpp:60:6:void CBmp280Device::getAll(float&, float&)	24	static
+../Core/Src/CBmp280Device.cpp:64:6:void CBmp280Device::setMode(CBmp280Device::OperatingMode, CBmp280Device::StandByTime)	32	static

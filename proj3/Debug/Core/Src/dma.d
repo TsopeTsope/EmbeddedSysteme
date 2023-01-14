@@ -1,6 +1,4 @@
-Core/Src/CBmp280SpiTest.o: ../Core/Src/CBmp280SpiTest.cpp \
- ../Core/Src/CBmp280SpiTest.h ../Core/Src/CLcd1602.h \
- ../Core/Src/CGpioBus.h \
+Core/Src/dma.o: ../Core/Src/dma.c ../Core/Inc/dma.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -31,14 +29,9 @@ Core/Src/CBmp280SpiTest.o: ../Core/Src/CBmp280SpiTest.cpp \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
- ../Core/Src/CGpioPin.h ../Core/Inc/spi.h ../Core/Inc/main.h \
- ../Core/Inc/dma.h ../Core/Src/CBmp280SpiDriver.h \
- ../Core/Src/CBmp280LowLevelDriver.h ../Core/Src/CBmp280I2cDriver.h \
- ../Core/Inc/i2c.h
-../Core/Src/CBmp280SpiTest.h:
-../Core/Src/CLcd1602.h:
-../Core/Src/CGpioBus.h:
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+../Core/Inc/dma.h:
+../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
@@ -70,11 +63,3 @@ Core/Src/CBmp280SpiTest.o: ../Core/Src/CBmp280SpiTest.cpp \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
-../Core/Src/CGpioPin.h:
-../Core/Inc/spi.h:
-../Core/Inc/main.h:
-../Core/Inc/dma.h:
-../Core/Src/CBmp280SpiDriver.h:
-../Core/Src/CBmp280LowLevelDriver.h:
-../Core/Src/CBmp280I2cDriver.h:
-../Core/Inc/i2c.h:

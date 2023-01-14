@@ -38,6 +38,18 @@ public:
 
 private:
 	CBmp280LowLevelDriver* m_driver;
+	unsigned short m_dig_T1;
+	signed short m_dig_T2;
+	signed short m_dig_T3;
+	unsigned short m_dig_P1;
+	signed short m_dig_P2;
+	signed short m_dig_P3;
+	signed short m_dig_P4;
+	signed short m_dig_P5;
+	signed short m_dig_P6;
+	signed short m_dig_P7;
+	signed short m_dig_P8;
+	signed short m_dig_P9;
 };
 
 #endif /* SRC_CBMP280DEVICE_H_ */

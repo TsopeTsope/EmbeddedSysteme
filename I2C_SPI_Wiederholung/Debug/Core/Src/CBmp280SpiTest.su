@@ -1,0 +1,8 @@
+CGpioPin.h:22:8:constexpr CGpioPin::CConfiguration::CConfiguration()	16	static
+CGpioPin.h:123:2:CGpioPin::CGpioPin(GPIO_TypeDef*, uint8_t)	24	static
+CBmp280SpiTest.h:16:17:void runBmp280SpiTest()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+CBmp280SpiTest.cpp:17:6:void CBmp280SpiTest::run()	368	static
+CBmp280SpiTest.cpp:74:1:void __static_initialization_and_destruction_0(int, int)	16	static
+CBmp280SpiTest.cpp:74:1:cpp)	8	static
+CBmp280SpiTest.cpp:74:1:cpp)	8	static

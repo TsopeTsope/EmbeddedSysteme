@@ -1,0 +1,4 @@
+CLcdTest.h:16:17:void runLcdTest()	16	static
+CGpioPin.h:22:8:constexpr CGpioPin::CConfiguration::CConfiguration()	16	static
+CGpioPin.h:123:2:CGpioPin::CGpioPin(GPIO_TypeDef*, uint8_t)	24	static
+CLcdTest.cpp:12:6:void CLcdTest::run()	88	static

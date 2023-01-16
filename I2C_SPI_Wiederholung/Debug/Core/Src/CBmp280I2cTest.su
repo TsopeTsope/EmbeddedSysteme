@@ -1,0 +1,10 @@
+CBmp280I2cTest.h:16:17:void runBmp280I2cTest()	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+CGpioPin.h:22:8:constexpr CGpioPin::CConfiguration::CConfiguration()	16	static
+CGpioPin.h:123:2:CGpioPin::CGpioPin(GPIO_TypeDef*, uint8_t)	24	static
+CGpioPin.h:135:12:CGpioPin& CGpioPin::setState(bool)	16	static
+CGpioPin.h:148:12:CGpioPin& CGpioPin::operator=(bool)	16	static
+CBmp280I2cTest.cpp:19:6:void CBmp280I2cTest::run()	392	static
+CBmp280I2cTest.cpp:77:1:void __static_initialization_and_destruction_0(int, int)	16	static
+CBmp280I2cTest.cpp:77:1:cpp)	8	static
+CBmp280I2cTest.cpp:77:1:cpp)	8	static

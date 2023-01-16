@@ -1,0 +1,6 @@
+CGpioPin.h:135:12:CGpioPin& CGpioPin::setState(bool)	16	static
+CGpioPin.h:148:12:CGpioPin& CGpioPin::operator=(bool)	16	static
+CBmp280LowLevelDriver.h:17:7:constexpr CBmp280LowLevelDriver::CBmp280LowLevelDriver()	16	static
+CBmp280SpiDriver.cpp:12:1:CBmp280SpiDriver::CBmp280SpiDriver(SPI_HandleTypeDef*, CGpioPin*)	24	static
+CBmp280SpiDriver.cpp:17:6:virtual bool CBmp280SpiDriver::writeRegister(uint8_t, uint8_t)	16	static
+CBmp280SpiDriver.cpp:34:6:virtual bool CBmp280SpiDriver::readRegisters(uint8_t, uint8_t*, uint8_t)	24	static
